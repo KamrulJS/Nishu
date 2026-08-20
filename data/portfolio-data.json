@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "eyebrow": "Digital Marketing Team Manager · Dhaka, Bangladesh",
+    "name": "Mainul",
+    "surname": "Ahasan Nishu",
+    "headline": "I turn ad spend into measurable growth.",
+    "sub": "Digital marketer specializing in SEO, AEO/GEO, and Meta Ads. Currently leading the digital marketing team at Softvence Agency, where strategy, tracking, and creative come together to move real numbers.",
+    "email": "seo.ahsan.bd@gmail.com",
+    "phone": "01302053166",
+    "location": "Ecb Chattar 224/4, Dhaka, Bangladesh",
+    "linkedin": "https://www.linkedin.com/in/mainul-ahasan-nishu-16a062184/"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years in Digital Marketing & Ops"
+    },
+    {
+      "value": "8+",
+      "label": "Core Marketing Skills"
+    },
+    {
+      "value": "4",
+      "label": "Remote Clients Worldwide"
+    },
+    {
+      "value": "1",
+      "label": "Marketing Team Led"
+    }
+  ],
+  "skills": [
+    {
+      "title": "SEO (On-page & Off-page)",
+      "icon": "🔍",
+      "tags": ["Technical SEO", "Organic Growth"],
+      "desc": "Technical fixes, content optimization, and link strategies that build organic visibility."
+    },
+    {
+      "title": "AEO & GEO",
+      "icon": "🤖",
+      "tags": ["AI Search", "Generative Engine"],
+      "desc": "Answer-engine and generative-engine optimization — visibility in AI-driven search."
+    },
+    {
+      "title": "Meta Ads Manager",
+      "icon": "📣",
+      "tags": ["PPC", "Campaign Scale"],
+      "desc": "Campaign structure, audience targeting, and optimization for performance at scale."
+    },
+    {
+      "title": "Team Management",
+      "icon": "👥",
+      "tags": ["Leadership", "Operations"],
+      "desc": "Leading marketers day to day — planning, reviews, and hitting delivery deadlines."
+    },
+    {
+      "title": "Content Strategy",
+      "icon": "✍️",
+      "tags": ["Editorial", "Ad Angles"],
+      "desc": "Editorial planning that connects brand messaging to search demand and ad angles."
+    },
+    {
+      "title": "Client Communication",
+      "icon": "💬",
+      "tags": ["Reporting", "Client Success"],
+      "desc": "Clear reporting and expectation-setting that keeps projects moving and clients confident."
+    },
+    {
+      "title": "Google Analytics (GA4)",
+      "icon": "📊",
+      "tags": ["Analytics", "Conversions"],
+      "desc": "Event tracking, conversion setup, and reports that show what's actually working."
+    },
+    {
+      "title": "Google Tag Manager",
+      "icon": "🏷️",
+      "tags": ["Data Layer", "Tracking"],
+      "desc": "Reliable tag deployment and data-layer work — no more guessing where numbers come from."
+    }
+  ],
+  "experience": [
+    {
+      "period": "Jan 2025 — Present",
+      "duration": "Ongoing",
+      "company": "Softvence Agency",
+      "role": "Digital Marketing Team Manager",
+      "desc": "Managing the digital marketing team with hands-on expertise in SEO, Meta Ads, and campaign optimization — owning strategy, execution quality, and client outcomes.",
+      "tags": ["SEO", "Meta Ads", "Campaign Optimization", "Team Leadership"]
+    },
+    {
+      "period": "2023 — 2024",
+      "duration": "~2 years",
+      "company": "Speedoz LTD",
+      "role": "Sr. Digital Marketing Executive",
+      "desc": "Drove ad performance and built content strategies for bike-helmet promotions — from creative angles to campaign reporting.",
+      "tags": ["Ad Performance", "Content Strategy", "E-commerce"]
+    },
+    {
+      "period": "2020 — 2022",
+      "duration": "2 years",
+      "company": "My Outsourcing Limited",
+      "role": "Asst. Administrative Officer",
+      "desc": "Provided administrative support, reporting, and workflow coordination — the operations foundation behind organized marketing delivery.",
+      "tags": ["Reporting", "Workflow Coordination"]
+    }
+  ],
+  "clients": [
+    "Araz Bangladesh",
+    "MT Helmet",
+    "City Kebab & Cafe",
+    "Speedoz Auto"
+  ],
+  "education": {
+    "degree": "Bachelor of Business Administration (B.B.A)",
+    "major": "Major in Marketing",
+    "institution": "Dhaka International University · Class of 2023",
+    "languages": ["English (Professional)", "Bangla (Native)"]
+  },
+  "references": [
+    {
+      "name": "Mushiur Any",
+      "role": "Lead Shopify · Softvence Agency",
+      "email": "mushiurany1000@gmail.com",
+      "phone": "01708043186"
+    },
+    {
+      "name": "Tanvir Tushar",
+      "role": "Leader WordPress · Softvence Agency",
+      "email": "tushartanvir@gmail.com",
+      "phone": "01706525479"
+    }
+  ]
+}
