@@ -8,7 +8,9 @@
     "email": "seo.ahsan.bd@gmail.com",
     "phone": "01302053166",
     "location": "Ecb Chattar 224/4, Dhaka, Bangladesh",
-    "linkedin": "https://www.linkedin.com/in/mainul-ahasan-nishu-16a062184/"
+    "linkedin": "https://www.linkedin.com/in/mainul-ahasan-nishu-16a062184/",
+    "worksDrive": "https://drive.google.com/drive/folders/1JqKVi1xS3FPBJPcWB-jj_vreEP1hQyC_?usp=sharing",
+    "image": "/assets/imgs/header/nishu.png"
   },
   "stats": [
     {
@@ -32,57 +34,60 @@
     {
       "title": "SEO (On-page & Off-page)",
       "icon": "🔍",
-      "tags": ["Technical SEO", "Organic Growth"],
       "desc": "Technical fixes, content optimization, and link strategies that build organic visibility."
     },
     {
       "title": "AEO & GEO",
       "icon": "🤖",
-      "tags": ["AI Search", "Generative Engine"],
       "desc": "Answer-engine and generative-engine optimization — visibility in AI-driven search."
     },
     {
       "title": "Meta Ads Manager",
       "icon": "📣",
-      "tags": ["PPC", "Campaign Scale"],
       "desc": "Campaign structure, audience targeting, and optimization for performance at scale."
     },
     {
       "title": "Team Management",
       "icon": "👥",
-      "tags": ["Leadership", "Operations"],
       "desc": "Leading marketers day to day — planning, reviews, and hitting delivery deadlines."
     },
     {
       "title": "Content Strategy",
       "icon": "✍️",
-      "tags": ["Editorial", "Ad Angles"],
       "desc": "Editorial planning that connects brand messaging to search demand and ad angles."
     },
     {
       "title": "Client Communication",
       "icon": "💬",
-      "tags": ["Reporting", "Client Success"],
       "desc": "Clear reporting and expectation-setting that keeps projects moving and clients confident."
     },
     {
       "title": "Google Analytics (GA4)",
       "icon": "📊",
-      "tags": ["Analytics", "Conversions"],
       "desc": "Event tracking, conversion setup, and reports that show what's actually working."
     },
     {
       "title": "Google Tag Manager",
       "icon": "🏷️",
-      "tags": ["Data Layer", "Tracking"],
       "desc": "Reliable tag deployment and data-layer work — no more guessing where numbers come from."
     }
+  ],
+  "marquee": [
+    "SEO Optimization",
+    "AEO & GEO Search",
+    "Meta Ads Manager",
+    "GA4 & GTM Tracking",
+    "Campaign Scale",
+    "Content Strategy",
+    "Team Leadership",
+    "Conversion Growth"
   ],
   "experience": [
     {
       "period": "Jan 2025 — Present",
       "duration": "Ongoing",
       "company": "Softvence Agency",
+      "companyUrl": "https://softvence.agency/",
       "role": "Digital Marketing Team Manager",
       "desc": "Managing the digital marketing team with hands-on expertise in SEO, Meta Ads, and campaign optimization — owning strategy, execution quality, and client outcomes.",
       "tags": ["SEO", "Meta Ads", "Campaign Optimization", "Team Leadership"]
@@ -91,6 +96,7 @@
       "period": "2023 — 2024",
       "duration": "~2 years",
       "company": "Speedoz LTD",
+      "companyUrl": "https://speedoz.com.bd/",
       "role": "Sr. Digital Marketing Executive",
       "desc": "Drove ad performance and built content strategies for bike-helmet promotions — from creative angles to campaign reporting.",
       "tags": ["Ad Performance", "Content Strategy", "E-commerce"]
@@ -99,6 +105,7 @@
       "period": "2020 — 2022",
       "duration": "2 years",
       "company": "My Outsourcing Limited",
+      "companyUrl": "https://www.myolbd.com/",
       "role": "Asst. Administrative Officer",
       "desc": "Provided administrative support, reporting, and workflow coordination — the operations foundation behind organized marketing delivery.",
       "tags": ["Reporting", "Workflow Coordination"]

@@ -11,7 +11,7 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <img src="/assets/imgs/header/p2.jpg" alt={`${hero.name} ${hero.surname}`} />
+                <img src={hero.image} alt={`${hero.name} ${hero.surname}`} style={{ borderRadius: '12px', objectFit: 'cover' }} />
               </div>
               <span className="icon">
                 <img src="/assets/imgs/resume/icon1.png" alt="" />

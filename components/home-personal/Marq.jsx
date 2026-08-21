@@ -1,15 +1,17 @@
 import React from 'react';
+import portfolioData from '@/data/portfolio-data.json';
 
 function Marq() {
-  const items = [
-    'Web Design',
-    'Art Director',
-    'Brand Strategy',
-    'UI/UX Design',
-    'Digital Marketing',
-    'Web Developement',
-    'Seo Mackting',
-    'Product Desgin',
+  const { marquee } = portfolioData;
+  const items = marquee || [
+    'SEO Optimization',
+    'AEO & GEO Search',
+    'Meta Ads Manager',
+    'GA4 & GTM Tracking',
+    'Campaign Scale',
+    'Content Strategy',
+    'Team Leadership',
+    'Conversion Growth',
   ];
   return (
     <section className="marq">

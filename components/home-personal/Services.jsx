@@ -26,12 +26,7 @@ function Services() {
                 <div className="fz-30 mb-15">{skill.icon}</div>
                 <h5 className="fw-500 fz-20 mb-12" style={{ fontSize: '20px' }}>{skill.title}</h5>
                 <div className="text mt-15">
-                  <div className="mb-15">
-                    {skill.tags.map((t, idx) => (
-                      <span key={idx} className="tag mr-5 mb-5">{t}</span>
-                    ))}
-                  </div>
-                  <p className="fz-14">{skill.desc}</p>
+                  <p className="fz-14 p-color">{skill.desc}</p>
                 </div>
               </div>
             </div>
