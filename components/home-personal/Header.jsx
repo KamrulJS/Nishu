@@ -85,16 +85,16 @@ function Header() {
           <div className="item mb-15">
             <h6 className="sub-title mb-5">Social Connect :</h6>
             <div className="social-icon d-flex align-items-center gap-3 mt-5">
-              <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn" className="hover-anim p-color mr-15 fz-18">
+              <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn" className="p-color mr-15 fz-18" style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}>
                 <i className="fab fa-linkedin-in main-color"></i>
               </a>
-              <a href={hero.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" title="Facebook" className="hover-anim p-color mr-15 fz-18">
+              <a href={hero.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" title="Facebook" className="p-color mr-15 fz-18" style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}>
                 <i className="fab fa-facebook-f main-color"></i>
               </a>
-              <a href={hero.instagram || "https://instagram.com"} target="_blank" rel="noopener noreferrer" title="Instagram" className="hover-anim p-color mr-15 fz-18">
+              <a href={hero.instagram || "https://instagram.com"} target="_blank" rel="noopener noreferrer" title="Instagram" className="p-color mr-15 fz-18" style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}>
                 <i className="fab fa-instagram main-color"></i>
               </a>
-              <a href={hero.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" title="Twitter" className="hover-anim p-color fz-18">
+              <a href={hero.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" title="Twitter" className="p-color fz-18" style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}>
                 <i className="fab fa-twitter main-color"></i>
               </a>
             </div>

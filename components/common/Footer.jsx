@@ -46,24 +46,52 @@ function Footer() {
                 Ready to grow your traffic and conversions? Let&apos;s map out your SEO & Meta Ads strategy.
               </p>
               <ul className="rest social-icon d-flex align-items-center flex-wrap gap-3">
-                <li className="hover-this cursor-pointer mr-15">
-                  <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" className="hover-anim fz-20" title="LinkedIn">
-                    <i className="fab fa-linkedin-in main-color"></i>
+                <li className="mr-15">
+                  <a
+                    href={hero.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="fz-20 main-color"
+                    style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}
+                    title="LinkedIn"
+                  >
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer mr-15">
-                  <a href={hero.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" className="hover-anim fz-20" title="Facebook">
-                    <i className="fab fa-facebook-f main-color"></i>
+                <li className="mr-15">
+                  <a
+                    href={hero.facebook || "https://facebook.com"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="fz-20 main-color"
+                    style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}
+                    title="Facebook"
+                  >
+                    <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer mr-15">
-                  <a href={hero.instagram || "https://instagram.com"} target="_blank" rel="noopener noreferrer" className="hover-anim fz-20" title="Instagram">
-                    <i className="fab fa-instagram main-color"></i>
+                <li className="mr-15">
+                  <a
+                    href={hero.instagram || "https://instagram.com"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="fz-20 main-color"
+                    style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}
+                    title="Instagram"
+                  >
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer">
-                  <a href={hero.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" className="hover-anim fz-20" title="Twitter (X)">
-                    <i className="fab fa-twitter main-color"></i>
+                <li>
+                  <a
+                    href={hero.twitter || "https://twitter.com"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="fz-20 main-color"
+                    style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}
+                    title="Twitter (X)"
+                  >
+                    <i className="fab fa-twitter"></i>
                   </a>
                 </li>
               </ul>
