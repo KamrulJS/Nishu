@@ -45,10 +45,25 @@ function Footer() {
               <p className="mb-20 fz-14 p-color">
                 Ready to grow your traffic and conversions? Let&apos;s map out your SEO & Meta Ads strategy.
               </p>
-              <ul className="rest social-icon d-flex align-items-center">
-                <li className="hover-this cursor-pointer">
+              <ul className="rest social-icon d-flex align-items-center flex-wrap gap-3">
+                <li className="hover-this cursor-pointer mr-15 mb-10">
                   <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" className="hover-anim">
-                    <i className="fab fa-linkedin-in"></i> LinkedIn
+                    <i className="fab fa-linkedin-in mr-5"></i> LinkedIn
+                  </a>
+                </li>
+                <li className="hover-this cursor-pointer mr-15 mb-10">
+                  <a href={hero.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" className="hover-anim">
+                    <i className="fab fa-facebook-f mr-5"></i> Facebook
+                  </a>
+                </li>
+                <li className="hover-this cursor-pointer mr-15 mb-10">
+                  <a href={hero.instagram || "https://instagram.com"} target="_blank" rel="noopener noreferrer" className="hover-anim">
+                    <i className="fab fa-instagram mr-5"></i> Instagram
+                  </a>
+                </li>
+                <li className="hover-this cursor-pointer mb-10">
+                  <a href={hero.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" className="hover-anim">
+                    <i className="fab fa-twitter mr-5"></i> Twitter (X)
                   </a>
                 </li>
               </ul>

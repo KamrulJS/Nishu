@@ -58,17 +58,9 @@ function Header() {
                       href={hero.worksDrive}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="butn butn-md butn-bord radius-30 mr-15 mb-10"
-                    >
-                      <span className="text">View Previous Works 📁</span>
-                    </a>
-                    <a
-                      href={hero.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="butn butn-md butn-bord radius-30 mb-10"
                     >
-                      <span className="text">LinkedIn Profile</span>
+                      <span className="text">View Previous Works 📁</span>
                     </a>
                   </div>
                 </div>
@@ -91,10 +83,21 @@ function Header() {
             <span className="p-color">{hero.location}</span>
           </div>
           <div className="item mb-15">
-            <h6 className="sub-title mb-5">Portfolio Drive :</h6>
-            <a href={hero.worksDrive} target="_blank" rel="noopener noreferrer" className="main-color underline">
-              Google Drive Folder 🔗
-            </a>
+            <h6 className="sub-title mb-5">Social Connect :</h6>
+            <div className="social-icon d-flex align-items-center gap-3 mt-5">
+              <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn" className="hover-anim p-color mr-15 fz-18">
+                <i className="fab fa-linkedin-in main-color"></i>
+              </a>
+              <a href={hero.facebook || "https://facebook.com"} target="_blank" rel="noopener noreferrer" title="Facebook" className="hover-anim p-color mr-15 fz-18">
+                <i className="fab fa-facebook-f main-color"></i>
+              </a>
+              <a href={hero.instagram || "https://instagram.com"} target="_blank" rel="noopener noreferrer" title="Instagram" className="hover-anim p-color mr-15 fz-18">
+                <i className="fab fa-instagram main-color"></i>
+              </a>
+              <a href={hero.twitter || "https://twitter.com"} target="_blank" rel="noopener noreferrer" title="Twitter" className="hover-anim p-color fz-18">
+                <i className="fab fa-twitter main-color"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
