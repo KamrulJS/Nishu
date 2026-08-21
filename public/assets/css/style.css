@@ -3986,8 +3986,7 @@ body.loaded {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
+  object-position: 75% 91%;
 }
 
 .about-author .info {
