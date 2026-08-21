@@ -24,7 +24,7 @@ function EduRef() {
                 <h6 className="fw-600 mb-10">Languages Spoken</h6>
                 <div className="d-flex gap-3">
                   {education.languages.map((lang, idx) => (
-                    <span key={idx} className="tag border radius-30 px-3 py-1 mr-10">
+                    <span key={idx} className="border radius-30 px-3 py-1 mr-10 fz-12 fw-400 p-color d-inline-block">
                       {lang}
                     </span>
                   ))}

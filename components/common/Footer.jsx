@@ -5,7 +5,7 @@ function Footer() {
   const { hero } = portfolioData;
 
   return (
-    <footer className="clean-footer crev" id="contact">
+    <footer className="clean-footer" id="contact">
       <div className="container pb-10 pt-40 ontop">
         <div className="row justify-content-between">
           <div className="col-lg-4">
@@ -77,9 +77,6 @@ function Footer() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="circle-blur">
-        <img src="/assets/imgs/patterns/blur1.png" alt="" />
       </div>
     </footer>
   );
