@@ -46,7 +46,7 @@ function About() {
                       <div key={idx} className="col-md-6 col-6">
                         <div className="item bord-thin-top pt-30 d-flex align-items-end mt-20">
                           <div>
-                            <h3 className="fw-300 mb-10 main-color">{stat.value}</h3>
+                            <h3 className="fw-700 fz-50 mb-10 main-color">{stat.value}</h3>
                             <h6 className="p-color sub-title">{stat.label}</h6>
                           </div>
                         </div>

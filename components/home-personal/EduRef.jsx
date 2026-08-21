@@ -10,7 +10,23 @@ function EduRef() {
         <div className="row lg-marg">
           {/* Education Panel */}
           <div className="col-lg-6 mb-40">
-            <div className="sub-bg p-5 radius-15 h-100 bord-thin-top">
+            <div
+              className="sub-bg p-5 radius-15 h-100 position-relative"
+              style={{
+                border: '1px solid rgba(255, 114, 58, 0.25)',
+                transition: 'all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = '#ff723a';
+                e.currentTarget.style.transform = 'translateY(-6px)';
+                e.currentTarget.style.boxShadow = '0 12px 30px rgba(255, 114, 58, 0.18)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(255, 114, 58, 0.25)';
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = 'none';
+              }}
+            >
               <div className="sec-head mb-30">
                 <span className="sub-title main-color mb-5">Academic Background</span>
                 <h4 className="fw-600">Education</h4>
@@ -35,7 +51,23 @@ function EduRef() {
 
           {/* References Panel */}
           <div className="col-lg-6 mb-40">
-            <div className="sub-bg p-5 radius-15 h-100 bord-thin-top">
+            <div
+              className="sub-bg p-5 radius-15 h-100 position-relative"
+              style={{
+                border: '1px solid rgba(255, 114, 58, 0.25)',
+                transition: 'all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = '#ff723a';
+                e.currentTarget.style.transform = 'translateY(-6px)';
+                e.currentTarget.style.boxShadow = '0 12px 30px rgba(255, 114, 58, 0.18)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(255, 114, 58, 0.25)';
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = 'none';
+              }}
+            >
               <div className="sec-head mb-30">
                 <span className="sub-title main-color mb-5">Endorsements</span>
                 <h4 className="fw-600">References</h4>
